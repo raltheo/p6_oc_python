@@ -134,13 +134,13 @@ body{
 }
 
 
-.card_film{
+
+.card_film_css{
     background-repeat: no-repeat;
     min-width: 182px;
     min-height: 268px;
     cursor: pointer;
 }
-
 
 .modal{
     position: fixed;
@@ -149,8 +149,8 @@ body{
     transform: translate(-50%, -50%);
     z-index: 999;
     background-color: #EDf5E1;
-    width: 70%;
-    height: 80%;
+    width: 85%;
+    height: 85%;
     border-radius: 15px;
     padding: 1rem;
     
@@ -161,6 +161,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 15px;
 }
 
 .modal p{
@@ -179,6 +180,10 @@ body{
 
 .wrapped{
     display: flex;
-    margin: 5px;
+    margin: 0;
     justify-content: space-around;
+}
+
+.modal_long_text{
+    font-size: 12px;
 }
